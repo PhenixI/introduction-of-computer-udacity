@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a6678cd4-9e66-4be5-aa2b-f12596efe89a</ProjectGuid>
+    <ProjectGuid>3214a212-ece2-4720-91e8-9e5df7fa1a4a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>vs2015.py</StartupFile>
+    <StartupFile>lesson7.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>vs2015</Name>
-    <RootNamespace>vs2015</RootNamespace>
+    <Name>lesson7</Name>
+    <RootNamespace>lesson7</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="vs2015.py" />
+    <Compile Include="lesson7.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
