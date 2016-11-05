@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "vs2015", "vs2015\vs2015.pyproj", "{546042F6-BEF6-41B6-B426-56B6EF1D5965}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "lesson6", "..\lesson6\lesson6.pyproj", "{AD282F60-03F6-41A4-9F1F-43EE44307BDA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "lesson7", "..\lesson7\lesson7.pyproj", "{3214A212-ECE2-4720-91E8-9E5DF7FA1A4A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "final_project", "..\final_project\final_project.pyproj", "{EB092428-F94D-480B-8FAD-B6439DD9B9D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +15,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{546042F6-BEF6-41B6-B426-56B6EF1D5965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{546042F6-BEF6-41B6-B426-56B6EF1D5965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD282F60-03F6-41A4-9F1F-43EE44307BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD282F60-03F6-41A4-9F1F-43EE44307BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3214A212-ECE2-4720-91E8-9E5DF7FA1A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3214A212-ECE2-4720-91E8-9E5DF7FA1A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB092428-F94D-480B-8FAD-B6439DD9B9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB092428-F94D-480B-8FAD-B6439DD9B9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,16 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>3214a212-ece2-4720-91e8-9e5df7fa1a4a</ProjectGuid>
+    <ProjectGuid>eb092428-f94d-480b-8fad-b6439dd9b9d9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>final_project.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>lesson7</Name>
-    <RootNamespace>lesson7</RootNamespace>
+    <Name>final_project</Name>
+    <RootNamespace>final_project</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,42 +21,13 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="final_project.py" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="Combating_Link_Spam.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DateConverter.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="deepReverse.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Elementary_Cellar_Automaton.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="find_and_replace.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="longest_repetition.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="pick_one.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="remove_tags.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="String_and_Bell.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Tri_numbers.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
   <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
